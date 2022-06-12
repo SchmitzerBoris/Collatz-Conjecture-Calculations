@@ -1,0 +1,1 @@
+A program that can make several calculations related to the famous Collatz conjecture in mathematics.
