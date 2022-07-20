@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "CollatzConjecture/1.0.0": {
+        "dependencies": {
+          "CollatzConjecture.Core": "1.0.0"
+        },
         "runtime": {
           "CollatzConjecture.dll": {}
+        }
+      },
+      "CollatzConjecture.Core/1.0.0": {
+        "runtime": {
+          "CollatzConjecture.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CollatzConjecture/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CollatzConjecture.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

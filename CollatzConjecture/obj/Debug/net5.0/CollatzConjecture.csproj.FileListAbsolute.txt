@@ -14,3 +14,6 @@ E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture\obj\Debug\net5.0\Colla
 E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture\obj\Debug\net5.0\ref\CollatzConjecture.dll
 E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.pdb
 E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.genruntimeconfig.cache
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.Core.dll
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.Core.pdb
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.csproj.CopyComplete

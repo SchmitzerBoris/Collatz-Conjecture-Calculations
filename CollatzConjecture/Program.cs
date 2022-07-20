@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Collections.Concurrent;
 using System.Linq;
 using System.Threading;
+using CollatzConjecture.Core;
 
 namespace CollatzConjecture
 {
     internal class Program
     {
-        
+        #region BASIC CONVERSIONS
         public static bool IsEven(long number)
         {
             return number % 2 == 0;
@@ -36,6 +37,10 @@ namespace CollatzConjecture
 
             return result;
         }
+
+        #endregion
+
+        #region CALCULATIONS
 
         public static List<long> CollatzNumbers(long number, bool trimmed = false)
         {
@@ -118,8 +123,6 @@ namespace CollatzConjecture
 
         }
 
-
-
         public static bool InvalidCollatzNumberExistsUpTo(long upperBound)
         {
             for (long number = 1; number <= upperBound; number++)
@@ -133,24 +136,6 @@ namespace CollatzConjecture
 
             Console.WriteLine("\n\nDone!");
             return false;
-        }
-
-        public static void ShowProgressBar(long relativeProgress, int barLength = 10, string additionalText = "")
-        {
-            string output = "[";
-
-            for (long i = 1; i <= barLength; i++)
-            {
-                output += i <= relativeProgress ? "█" : " ";
-            }
-
-            output += "]";
-            if (!string.IsNullOrWhiteSpace(additionalText))
-            {
-                output += " " + additionalText;
-            }
-
-            Console.Write($"\r{output}");
         }
 
         public static long NumberOfSteps(long number)
@@ -179,6 +164,28 @@ namespace CollatzConjecture
             }
 
             return (mostSteps, numberWithMostSteps);
+        }
+
+        #endregion
+
+        #region WRITE
+
+        public static void ShowProgressBar(long relativeProgress, int barLength = 10, string additionalText = "")
+        {
+            string output = "[";
+
+            for (long i = 1; i <= barLength; i++)
+            {
+                output += i <= relativeProgress ? "█" : " ";
+            }
+
+            output += "]";
+            if (!string.IsNullOrWhiteSpace(additionalText))
+            {
+                output += " " + additionalText;
+            }
+
+            Console.Write($"\r{output}");
         }
 
         public static void PrintHighestNumberOfSteps(long upperBound)
@@ -274,9 +281,11 @@ namespace CollatzConjecture
 
         }
 
+        #endregion
+
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            //Console.ForegroundColor = ConsoleColor.Green;
             
             bool running = true;
 
@@ -333,9 +342,6 @@ namespace CollatzConjecture
                     else anOperationIsChosen = true;
                 }                
 
-                
-
-
                 startTime = DateTime.Now;
 
                 try
@@ -358,7 +364,7 @@ namespace CollatzConjecture
                     }
                     else if (inputOperationChoice == "exit")
                     {
-                        Environment.Exit(0);
+                        running = false;
                     }
                 }
                 catch (Exception ex)

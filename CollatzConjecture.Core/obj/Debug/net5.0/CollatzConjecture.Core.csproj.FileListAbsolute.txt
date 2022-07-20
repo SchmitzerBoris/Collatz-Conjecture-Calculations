@@ -1,0 +1,12 @@
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture.Core\bin\Debug\net5.0\CollatzConjecture.Core.deps.json
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture.Core\bin\Debug\net5.0\CollatzConjecture.Core.dll
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture.Core\bin\Debug\net5.0\ref\CollatzConjecture.Core.dll
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture.Core\bin\Debug\net5.0\CollatzConjecture.Core.pdb
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture.Core\obj\Debug\net5.0\CollatzConjecture.Core.csproj.AssemblyReference.cache
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture.Core\obj\Debug\net5.0\CollatzConjecture.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture.Core\obj\Debug\net5.0\CollatzConjecture.Core.AssemblyInfoInputs.cache
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture.Core\obj\Debug\net5.0\CollatzConjecture.Core.AssemblyInfo.cs
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture.Core\obj\Debug\net5.0\CollatzConjecture.Core.csproj.CoreCompileInputs.cache
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture.Core\obj\Debug\net5.0\CollatzConjecture.Core.dll
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture.Core\obj\Debug\net5.0\ref\CollatzConjecture.Core.dll
+E:\Stuff\VisualStudio\CollatzConjecture\CollatzConjecture.Core\obj\Debug\net5.0\CollatzConjecture.Core.pdb

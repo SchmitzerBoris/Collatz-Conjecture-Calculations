@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CollatzConjecture.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CollatzConjecture.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CollatzConjecture.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CollatzConjecture.Core/1.0.0": {
+      "type": "project",
+      "path": "../CollatzConjecture.Core/CollatzConjecture.Core.csproj",
+      "msbuildProject": "../CollatzConjecture.Core/CollatzConjecture.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "CollatzConjecture.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Schmitzer Boris\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Stuff\\VisualStudio\\CollatzConjecture\\CollatzConjecture.Core\\CollatzConjecture.Core.csproj": {
+              "projectPath": "E:\\Stuff\\VisualStudio\\CollatzConjecture\\CollatzConjecture.Core\\CollatzConjecture.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
